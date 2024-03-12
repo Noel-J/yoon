@@ -59,17 +59,17 @@
 	// Tweaks/fixes.
 
 		// Mobile: Revert to native scrolling.
-			if (browser.mobile) {
+			// if (browser.mobile) {
 
-				// Disable all scroll-assist features.
-					settings.keyboardShortcuts.enabled = false;
-					settings.scrollWheel.enabled = false;
-					settings.scrollZones.enabled = false;
+			// 	// Disable all scroll-assist features.
+			// 		settings.keyboardShortcuts.enabled = false;
+			// 		settings.scrollWheel.enabled = false;
+			// 		settings.scrollZones.enabled = false;
 
-				// Re-enable overflow on main.
-					$main.css('overflow-x', 'auto');
+			// 	// Re-enable overflow on main.
+			// 		$main.css('overflow-x', 'auto');
 
-			}
+			// }
 
 		// IE: Fix min-height/flexbox.
 			if (browser.name == 'ie')
